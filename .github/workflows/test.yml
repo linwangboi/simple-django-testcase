@@ -1,9 +1,9 @@
-name: Run Django Tests
+name: Run Django tests
 
 on:
   push:
     branches: [master]
-    
+
 jobs:
   test-django-app:
     runs-on: ubuntu-latest
